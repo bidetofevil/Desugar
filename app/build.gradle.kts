@@ -37,7 +37,8 @@ android {
 }
 
 dependencies {
-    implementation(libs.opentelemetry.sdk.common)
+    api(libs.opentelemetry.api)
+    api(libs.opentelemetry.sdk.common)
     coreLibraryDesugaring(libs.desugar.jdk.libs)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

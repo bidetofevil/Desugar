@@ -13,7 +13,8 @@ opentelemetrySemconvIncubating = "1.24.0-alpha"
 opentelemetrySemconvVersion = "1.24.0-alpha"
 opentelemetryBom = "1.36.0"
 desugar_jdk_libs = "2.0.4"
-opentelemetrySdkCommon = "1.36.0"
+opentelemetrySdkCommon = "1.37.0"
+opentelemetryApi = "1.37.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,6 +30,7 @@ semconv-opentelemetry-semconv = { group = "io.opentelemetry.semconv", name = "op
 opentelemetry-bom = { group = "io.opentelemetry", name = "opentelemetry-bom", version.ref = "opentelemetryBom" }
 desugar_jdk_libs = { group = "com.android.tools", name = "desugar_jdk_libs", version.ref = "desugar_jdk_libs" }
 opentelemetry-sdk-common = { group = "io.opentelemetry", name = "opentelemetry-sdk-common", version.ref = "opentelemetrySdkCommon" }
+opentelemetry-api = { group = "io.opentelemetry", name = "opentelemetry-api", version.ref = "opentelemetryApi" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
